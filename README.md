@@ -21,12 +21,13 @@ Unlike PCA, LDA tries to reduce dimensions of the feature set while retaining th
 ## Fisher Discriminant Analysis (FDA)
 Fisher’s linear discriminant can be used as a supervised learning classifier. Given labeled data, the classifier can find a set of weights to draw a decision boundary, classifying the data. Fisher’s linear discriminant attempts to find the vector that maximizes the separation between classes of the projected data. Maximizing “separation” can be ambiguous. The criteria that Fisher’s linear discriminant follows to do this is to maximize the distance of the projected means and to minimize the projected within-class variance.
  ![FDA](https://miro.medium.com/max/1400/1*Zj8OBbYnyBZZib8jquWkIA.png)
-
+**To explore more about FDA | [FDA](https://towardsdatascience.com/fishers-linear-discriminant-intuitively-explained-52a1ba79e1bb)**
 
 ## CIFAR-10 Dataset
 The CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes, with 6000 images per class. There are 50000 training images and 10000 test images.
 The dataset is divided into five training batches and one test batch, each with 10000 images. The test batch contains exactly 1000 randomly-selected images from each class. The training batches contain the remaining images in random order, but some training batches may contain more images from one class than another. Between them, the training batches contain exactly 5000 images from each class.
  ![CIFAR-10](https://production-media.paperswithcode.com/datasets/4fdf2b82-2bc3-4f97-ba51-400322b228b1.png)
+
  **To explore more about CIFAR-10 Dataset | [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html)**
 
 ### MNIST Dataset
